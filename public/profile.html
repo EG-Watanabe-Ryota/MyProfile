@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="profile.css">
+
+        <script>
+            //これ実はブラウザのコンソールでユーザー側で解除できるらしい
+            document.oncontextmenu = function(){alert('右クリックは禁止です！やめてください！'); return false}
+        </script>
+
+    </head>
+
+    <body>
+        <!--左側に置いてあるメニューバー-->
+        <div class="main-wrapper">
+            <div class="menu">
+                <div class="img">
+                    <img src="ダウンロード.png">
+                </div>
+                <ul>
+                    <li><a href="index.html">トップ</a></li>
+                    <li>プロフィール</li>
+                    <li><a href="">掲示板</a></li>
+                    <li><a href="">リンク集</a></li>
+                </ul>
+            </div>
+
+            <div class="top">
+                <div class="title">
+                    <h1>ようこそ渡邊良太のホームページへ！</h1>
+                    <h2>Welcome to Watanabe's HP!</h2>
+                </div>
+
+                <div class="content_prf">
+                    <h1>渡邊良太のプロフィール</h1>
+                    <img src="pro_img.jpg" width="156px" height="277px">
+                    <table border="1">
+                        <tr>
+                            <th>名前</th>
+                            <th>渡邊良太</th>
+                        </tr>
+                        <tr>
+                            <th>誕生日</th>
+                            <th>5月6日</th>
+                        </tr>
+                        <tr>
+                            <th>出身地</th>
+                            <th>福島県</th>
+                        </tr>
+                        <tr>
+                            <th>血液型</th>
+                            <th>B型</th>
+                        </tr>
+                        <tr>
+                            <th>好きな食べ物</th>
+                            <th>ほどよく辛い食べ物</th>
+                        </tr>
+                        <tr>
+                            <th>趣味</th>
+                            <th>ドライブ、PCゲーム</th>
+                        </tr>
+                        <tr>
+                            <th>これからの意気込み</th>
+                            <th>まだまだ分からないことばかりですが<br>
+                                精一杯頑張っていきたいと思います</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
