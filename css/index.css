@@ -1,5 +1,5 @@
 body {
-    background-image: url("haikei_top4.png");
+    background-image: url("../img/haikei_top4.png");
     background-size: 150px;
 }
 
@@ -77,4 +77,9 @@ span{
 }
 .content{
     text-align: center;
+}
+
+marquee{
+    font-size: 60px;
+    color:red;
 }
