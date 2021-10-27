@@ -41,6 +41,7 @@ ul{
     background-color: #FFABAB;
     position: relative;
     left:500px;
+    box-shadow: 10px 10px;
 }
 
 .title h1{

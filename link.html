@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/link.css">
+
+        <script>
+            //これ実はブラウザのコンソールでユーザー側で解除できるらしい
+            document.oncontextmenu = function(){alert('右クリックは禁止です！やめてください！'); return false}
+        </script>
+
+    </head>
+
+    <body>
+        <!--左側に置いてあるメニューバー-->
+        <div class="main-wrapper">
+            <div class="menu">
+                <div class="img">
+                    <img src="./img/ダウンロード.png">
+                </div>
+                <ul>
+                    <li><a href="index.html">トップ</a></li>
+                    <li><a href="profile.html">プロフィール</a></li>
+                    <li><a href="bbs.html">掲示板</a></li>
+                    <li>リンク集</li>
+                </ul>
+            </div>
+
+            <div class="top">
+                <div class="title">
+                    <h1>ようこそ渡邊良太のホームページへ！</h1>
+                    <h2>Welcome to Watanabe's HP!</h2>
+                </div>
+
+                <div class="content_prf">
+                    <h1>申し訳ございません。<br>このページは工事中となっております。<br>いましばらくお待ちくださいませ</h1>
+                    <img src="./img/kouji.jpg" width="300px" height="277px">
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
