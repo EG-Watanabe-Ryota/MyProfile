@@ -3,6 +3,10 @@ body {
     background-size: 150px;
 }
 
+.main-wrapper{
+    display:flex;
+}
+
 ul{
     list-style: none;
     margin-top: 30px;
@@ -10,10 +14,9 @@ ul{
 
 .menu{
     height: 900px;
-    width: 13%;
+    width: 20vw;
     margin-left: 0;
     background-color: #FFABAB;
-    float: left;
 }
 
 .menu li{
@@ -39,9 +42,8 @@ ul{
     height: 158px;
     width: 595px;
     background-color: #FFABAB;
-    position: relative;
-    left:500px;
     box-shadow: 10px 10px;
+    margin:0 auto;
 }
 
 .title h1{
